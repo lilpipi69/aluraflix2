@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROGERFLIX</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #333333, #b0b0b0);
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #333333;
+            padding: 10px 20px;
+            text-align: left;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #b0b0b0;
+        }
+
+        .highlight {
+            background-color: #b0b0b0;
+            padding: 20px;
+            text-align: center;
+            color: #333333;
+        }
+
+        .highlight h2 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .highlight p {
+            margin: 10px 0;
+        }
+
+        .highlight iframe {
+            margin-top: 20px;
+            width: 560px;
+            height: 315px;
+            border-radius: 10px;
+            border: 2px solid #333333;
+        }
+
+        .content {
+            background-color: #333333;
+            padding: 20px;
+        }
+
+        .content h2 {
+            color: #b0b0b0;
+        }
+
+        .video-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .video-item {
+            flex: 1 1 calc(20% - 10px);
+            margin-bottom: 20px;
+        }
+
+        .video-item iframe {
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+            border: 2px solid #b0b0b0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ROGERFLIX</h1>
+    </header>
+
+    <div class="highlight">
+        <h2>ATRAVÉS DO ARANHAVERSO</h2>
+        <p>#homem-aranha</p>
+        <iframe src="https://www.youtube.com/embed/LZBlXkDvhh4" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="content">
+        <h2>Filmes e séries</h2>
+        <div class="video-grid">
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/lA67eNZnWeQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/TWtGUHg1zGM" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/MDJINjvWRjg" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/bwke37T4yfk" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/eL-YVT9CvJU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
